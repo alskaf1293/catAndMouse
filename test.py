@@ -200,7 +200,7 @@ while 1:
         minDistancePoint = getMinDistancePoint(center, radius, mousePos)
         pygame.draw.circle(screen, blue, minDistancePoint, mouseCircleRadius)
 
-        returns 0 for clockwise, 1 for counterclockwise
+        #returns 0 for clockwise, 1 for counterclockwise
         catDirection = getCatDirection(center, minDistancePoint, catPos)
 
         if catDirection:
